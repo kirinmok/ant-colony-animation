@@ -28,6 +28,19 @@
             max-width: 800px;
             height: 600px;
         }
+        /* 其他現有樣式... */
+        
+        /* 在這裡添加新的 top-hint 樣式 */
+        .top-hint {
+            width: 100%;
+            text-align: center;
+            color: black;
+            background-color: white;
+            padding: 8px 0;
+            margin-bottom: 10px;
+            font-size: 16px;
+            font-weight: bold;
+        }
         .background {
             position: absolute;
             top: 0;
@@ -67,12 +80,12 @@
 </head>
 <body>
     <div class="container">
-        <div class="animation-container">
-            <div class="background"></div>
-            <canvas id="antsCanvas" width="800" height="600"></canvas>
-            <div class="hint">移動滑鼠或觸摸螢幕，螞蟻將自動跟隨您的軌跡爬行</div>
-        </div>
+    <div class="top-hint">移動滑鼠或觸摸螢幕，螞蟻將自動跟隨您的軌跡爬行</div>
+    <div class="animation-container">
+        <div class="background"></div>
+        <canvas id="antsCanvas" width="800" height="600"></canvas>
     </div>
+</div>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
@@ -559,7 +572,7 @@
                 }
                 
                 // 繪製浮水印
-                const watermarkText = "Kirin Mok";
+                const watermarkText = "kirinmok©2025";
                 ctx.font = "bold 16px Arial";
                 ctx.fillStyle = "rgba(255, 255, 255, 0.8)";
                 ctx.textAlign = "right";
