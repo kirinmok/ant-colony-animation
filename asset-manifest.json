@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ant-colony-animation/static/css/main.f855e6bc.css",
+    "main.js": "/ant-colony-animation/static/js/main.28014f17.js",
+    "static/js/453.4687c0b4.chunk.js": "/ant-colony-animation/static/js/453.4687c0b4.chunk.js",
+    "index.html": "/ant-colony-animation/index.html",
+    "main.f855e6bc.css.map": "/ant-colony-animation/static/css/main.f855e6bc.css.map",
+    "main.28014f17.js.map": "/ant-colony-animation/static/js/main.28014f17.js.map",
+    "453.4687c0b4.chunk.js.map": "/ant-colony-animation/static/js/453.4687c0b4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.28014f17.js"
+  ]
+}
